@@ -1,0 +1,19 @@
+//Change to a tablet size
+
+.main_section{
+    @include breakpoint(tablet){
+        display: flex;
+        flex-direction: row-reverse;
+        .imagen_2{
+            width: 398px;
+            height: 400px;
+            background-image: url(/img/imagen_2_2.jpg);
+        }
+        .section_text{
+            width:223px;
+            height: 299px;
+            margin: auto;
+            padding-top: 36px;
+        }
+    }
+}

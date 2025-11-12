@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  padding:0;
+  min-width: 343px;
+  max-width: 767px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  @include breakpoint (tablet){
+    margin:0;
+    padding:0;
+    min-width: 768px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body{
+  @include breakpoint (desktop){
+    margin:0;
+    padding:0;
+    min-width: 1025px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+body{
+  @include breakpoint (desktop){
+    margin:0;
+    padding:0;
+    min-width: 1141px;
+    max-width: 2200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

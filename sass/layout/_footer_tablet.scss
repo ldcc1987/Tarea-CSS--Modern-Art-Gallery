@@ -1,0 +1,32 @@
+//Change to a tablet size
+.main_footer{
+    @include breakpoint(tablet){
+            height: 216px;
+        .footer_container{
+            display: flex;
+            width: 689px;
+            height: 104px;
+            justify-content: space-between;
+            align-items: center;
+            .footer__parrafo{
+                width: 281px;
+                height: 104px;
+            }
+        }
+   }
+}
+
+//Change to a tablet size location.html
+.main_footer_2{
+    height: 216px;
+    @include breakpoint (tablet){
+        min-width: 768px;
+        display: flex;
+        .footer__parrafo{
+            width: 281px;
+            height: 104px;
+            margin-left: 65px;
+            margin-right: 133px;
+        }
+    }
+}

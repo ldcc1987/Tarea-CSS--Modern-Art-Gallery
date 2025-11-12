@@ -1,0 +1,16 @@
+//Change to a desktop size
+
+.location{
+    @include breakpoint(tablet){
+        display: flex;
+        align-items: start;
+        min-width: 768px;
+        height: 436px;
+        .location__title{
+            display: block;
+            width: 223px;
+            height: 100px;
+            margin: 35px 68px 248px 39px;
+        }
+    }
+}

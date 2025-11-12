@@ -1,0 +1,111 @@
+//Change to a desktop  size to index.html
+
+.main_header{
+    @include breakpoint(desktop){
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+        .color_bar{
+            background-color:$black-ligth;
+            width: 33%;
+            height: 799px;
+            position: relative
+            
+        }
+        .principal_image{
+            background-image: url(/img/imagen_1_3.jpg);
+            width: 540px;
+            height: 800px;
+            background-position-x: 210px;
+            position: relative;
+            background-position-x: center;
+        }
+        .container_header_2{
+            position: absolute;
+            left:145px;
+            top:45px;
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            .container__title{
+                width: 514px;
+                height: 176px;
+                h1{color:$white;
+                font-family: $primary-font;
+                font-weight: 900;
+                font-style: Black;
+                font-size: 96px;
+                line-height: 88px;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+                }
+            }
+            .welcome_text_2{
+                position: relative;
+                top:120px;
+                left: 240px;
+                .container__subtitle{
+                    width: 350px;
+                    height: 160px;
+                    p{
+                        font-family: Outfit;
+                        font-weight: 400;
+                        font-style: Light;
+                        font-size: 22px;
+                        line-height: 32px;
+                        letter-spacing: 0px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// location.html
+
+.main_location{
+    @include breakpoint (desktop){
+        width: 1440px;
+        height: 600px;
+        .location__map{
+            background-image: url(/img/Bitmap_3.jpg);
+            background-repeat: no-repeat;
+            width: 1440.9px;
+            height: 685px;
+            .button_location{
+                margin-left: 156px;
+            }
+            .location__location{
+                left:532px;
+                top:35px;
+            }
+        }
+    }
+}
+.main_header{
+    @include breakpoint(desktop xl){
+        .container_header_2{
+            position: absolute;
+            left:15px;
+            top:-100px;
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            .container__title{
+                width: 514px;
+                height: 176px;
+                h1{color:$white;
+                font-family: $primary-font;
+                font-weight: 900;
+                font-style: Black;
+                font-size: 96px;
+                line-height: 88px;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+                }
+       }
+    }
+}
+}

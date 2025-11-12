@@ -1,0 +1,30 @@
+//Change to a desktop size
+
+.subsection{
+    @include breakpoint(desktop){
+        display: flex;
+        margin-top: 30px;
+        width: 1110px;
+        height: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        .imagen_3{
+            background-image: url(/img/imagen_3_3.jpg);
+            width: 635px;
+            height: 720px;
+            margin:0;
+            margin-right: 30px;
+        }
+        .imagen_4{
+            background-image: url(/img/imagen_4_3.jpg);
+            width: 445px;
+            height: 313px;
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+        .text{
+            width: 445px;
+            height: 377px;
+        }
+    }
+}

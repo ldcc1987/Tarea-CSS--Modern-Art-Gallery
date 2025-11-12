@@ -1,0 +1,59 @@
+//Mobile size
+
+ .location{
+    height: 493px;
+    background-color: $black;
+    margin-top: 0px;
+    padding-left: 16px;
+    
+    .location__title{
+        h2{
+            padding-top: 48px;
+            font-family: $primary-font;
+            font-weight: 900;
+            font-size: 50px;                    
+            line-height: 45px;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            color: $white;  
+            margin-top: 0px; 
+            margin-bottom: 48px;   
+            br{
+                display: none;
+            } 
+        }
+    }
+    .location__subtitle{
+        h3{
+            font-family: $primary-font;
+            color:$gold;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+        }
+    }
+    .location_address{
+        p{
+            font-family: $secondary-font;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color:$white;
+        }
+    }
+    .location__parrafo{
+        p{
+            width: 343px;
+            height: 140px;
+            font-family: $secondary-font;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color:$white;
+        }
+    }
+ }
