@@ -369,7 +369,7 @@ body {
     color: black; }
 
 .main_location .location__map {
-  background-image: url(/img/Bitmap_1.jpg);
+  background-image: url(../img/Bitmap_1.jpg);
   width: 375px;
   height: 550px; }
 .main_location .button_location {
@@ -586,7 +586,7 @@ body {
         text-transform: uppercase; } }
 
 .main_section .imagen_2 {
-  background-image: url(/img/imagen_2.jpg);
+  background-image: url(../img/imagen_2.jpg);
   width: 343px;
   height: 320px;
   margin: auto;
@@ -628,7 +628,7 @@ body {
     .main_section .imagen_2 {
       width: 398px;
       height: 400px;
-      background-image: url(/img/imagen_2_2.jpg); }
+      background-image: url(../img/imagen_2_2.jpg); }
     .main_section .section_text {
       width: 223px;
       height: 299px;
@@ -641,7 +641,7 @@ body {
     .main_section .imagen_2 {
       width: 398px;
       height: 400px;
-      background-image: url(/img/imagen_2_2.jpg); }
+      background-image: url(../img/imagen_2_2.jpg); }
     .main_section .section_text {
       width: 223px;
       height: 299px;
@@ -657,7 +657,7 @@ body {
     margin-left: auto;
     margin-right: auto; }
     .main_section .imagen_2 {
-      background-image: url(/img/imagen_2_3.jpg);
+      background-image: url(../img/imagen_2_3.jpg);
       width: 635px;
       height: 400px;
       margin-top: 0;
@@ -698,7 +698,7 @@ body {
     margin-left: auto;
     margin-right: auto; }
     .main_section .imagen_2 {
-      background-image: url(/img/imagen_2_3.jpg);
+      background-image: url(../img/imagen_2_3.jpg);
       width: 635px;
       height: 400px;
       margin-top: 0;
@@ -828,13 +828,13 @@ body {
     margin-left: auto;
     margin-right: auto; }
     .subsection .imagen_3 {
-      background-image: url(/img/imagen_3_3.jpg);
+      background-image: url(../img/imagen_3_3.jpg);
       width: 635px;
       height: 720px;
       margin: 0;
       margin-right: 30px; }
     .subsection .imagen_4 {
-      background-image: url(/img/imagen_4_3.jpg);
+      background-image: url(../img/imagen_4_3.jpg);
       width: 445px;
       height: 313px;
       margin-bottom: 30px;
@@ -851,13 +851,13 @@ body {
     margin-left: auto;
     margin-right: auto; }
     .subsection .imagen_3 {
-      background-image: url(/img/imagen_3_3.jpg);
+      background-image: url(../img/imagen_3_3.jpg);
       width: 635px;
       height: 720px;
       margin: 0;
       margin-right: 30px; }
     .subsection .imagen_4 {
-      background-image: url(/img/imagen_4_3.jpg);
+      background-image: url(../img/imagen_4_3.jpg);
       width: 445px;
       height: 313px;
       margin-bottom: 30px;
