@@ -4,7 +4,7 @@
     @include breakpoint (tablet){       
         display: flex;
         .principal_image{
-            background-image: url(/img/imagen_1_2.jpg);
+            background-image: url(../img/imagen_1_2.jpg);
             background-repeat: no-repeat;
             width: 437px;
             height: 700px;
@@ -26,7 +26,7 @@
 .main_location{
     @include breakpoint (tablet){
         .location__map{
-            background-image: url(/img/Bitmap_2.jpg);
+            background-image: url(../img/Bitmap_2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             min-width: 768px;

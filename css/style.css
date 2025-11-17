@@ -337,7 +337,7 @@ body {
         margin-right: 133px; } }
 
 .main_header .principal_image {
-  background-image: url(/img/imagen_1.jpg);
+  background-image: url(../img/imagen_1.jpg);
   background-repeat: no-repeat;
   min-width: 375px;
   max-width: 767px;
@@ -382,7 +382,7 @@ body {
   .main_header {
     display: flex; }
     .main_header .principal_image {
-      background-image: url(/img/imagen_1_2.jpg);
+      background-image: url(../img/imagen_1_2.jpg);
       background-repeat: no-repeat;
       width: 437px;
       height: 700px;
@@ -397,7 +397,7 @@ body {
   .main_header {
     display: flex; }
     .main_header .principal_image {
-      background-image: url(/img/imagen_1_2.jpg);
+      background-image: url(../img/imagen_1_2.jpg);
       background-repeat: no-repeat;
       width: 437px;
       height: 700px;
@@ -411,7 +411,7 @@ body {
 
 @media (max-width: 2500px) and (min-width: 1441px) {
   .main_location .location__map {
-    background-image: url(/img/Bitmap_2.jpg);
+    background-image: url(../img/Bitmap_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 768px;
@@ -423,7 +423,7 @@ body {
       margin: 180px 350px; } }
 @media (max-width: 1024px) and (min-width: 768px) {
   .main_location .location__map {
-    background-image: url(/img/Bitmap_2.jpg);
+    background-image: url(../img/Bitmap_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 768px;
@@ -445,7 +445,7 @@ body {
       height: 799px;
       position: relative; }
     .main_header .principal_image {
-      background-image: url(/img/imagen_1_3.jpg);
+      background-image: url(../img/imagen_1_3.jpg);
       width: 540px;
       height: 800px;
       background-position-x: 210px;
@@ -495,7 +495,7 @@ body {
       height: 799px;
       position: relative; }
     .main_header .principal_image {
-      background-image: url(/img/imagen_1_3.jpg);
+      background-image: url(../img/imagen_1_3.jpg);
       width: 540px;
       height: 800px;
       background-position-x: 210px;
@@ -540,7 +540,7 @@ body {
     width: 1440px;
     height: 600px; }
     .main_location .location__map {
-      background-image: url(/img/Bitmap_3.jpg);
+      background-image: url(../img/Bitmap_3.jpg);
       background-repeat: no-repeat;
       width: 1440.9px;
       height: 685px; }
@@ -554,7 +554,7 @@ body {
     width: 1440px;
     height: 600px; }
     .main_location .location__map {
-      background-image: url(/img/Bitmap_3.jpg);
+      background-image: url(../img/Bitmap_3.jpg);
       background-repeat: no-repeat;
       width: 1440.9px;
       height: 685px; }
@@ -735,12 +735,12 @@ body {
   width: 343px;
   height: 480px;
   margin: auto;
-  background-image: url(/img/imagen_3.jpg); }
+  background-image: url(../img/imagen_3.jpg); }
 .subsection .imagen_4 {
   width: 343px;
   height: 200px;
   margin: auto;
-  background-image: url(/img/imagen_4.jpg);
+  background-image: url(../img/imagen_4.jpg);
   margin-top: 16px; }
 .subsection .text {
   width: 343px;
@@ -775,7 +775,7 @@ body {
     display: flex;
     margin-top: 11px; }
     .subsection .imagen_3 {
-      background-image: url(/img/imagen_3_2.jpg);
+      background-image: url(../img/imagen_3_2.jpg);
       width: 398px;
       height: 720px;
       margin: 0px 11px 0px 39px; }
@@ -783,7 +783,7 @@ body {
       width: 280px;
       height: 720px; }
       .subsection .subsection_2 .imagen_4 {
-        background-image: url(/img/imagen_4_2.jpg);
+        background-image: url(../img/imagen_4_2.jpg);
         width: 280px;
         height: 313px;
         margin-top: 0; }
@@ -799,7 +799,7 @@ body {
     display: flex;
     margin-top: 11px; }
     .subsection .imagen_3 {
-      background-image: url(/img/imagen_3_2.jpg);
+      background-image: url(../img/imagen_3_2.jpg);
       width: 398px;
       height: 720px;
       margin: 0px 11px 0px 39px; }
@@ -807,7 +807,7 @@ body {
       width: 280px;
       height: 720px; }
       .subsection .subsection_2 .imagen_4 {
-        background-image: url(/img/imagen_4_2.jpg);
+        background-image: url(../img/imagen_4_2.jpg);
         width: 280px;
         height: 313px;
         margin-top: 0; }
