@@ -1,7 +1,7 @@
 //Change to a desktop  size to index.html
 
 .main_header{
-    @include breakpoint(desktop-XL){
+    @include breakpoint(desktop xl){
         display: flex;
         margin-left: auto;
         margin-right: auto;
