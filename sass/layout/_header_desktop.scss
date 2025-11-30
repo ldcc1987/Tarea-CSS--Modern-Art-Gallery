@@ -1,44 +1,49 @@
 //Change to a desktop  size to index.html
 
 .main_header{
-    @include breakpoint(desktop){
+    @include breakpoint(desktop-XL){
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        
         .color_bar{
             background-color:$black-ligth;
-            width: 33%;
-            height: 799px;
+            width: 31.5%;
+            height: 1000px;
             position: relative
-            
         }
         .principal_image{
             background-image: url(../img/imagen_1_3.jpg);
-            width: 540px;
-            height: 800px;
+            background-size:contain;
+            background-position-y: -40px;
+            width: 37.5%;
+            height: 1800px;
             background-position-x: 210px;
             position: relative;
             background-position-x: center;
+            margin-left: 0;
+            padding-left: 0;
+            img{
+              background-size:auto;
+            }
         }
         .container_header_2{
             position: absolute;
             left:145px;
             top:45px;
-            display: flex;  
+            display: flex;
             justify-content: center;
             align-items: center;
             .container__title{
-                width: 514px;
-                height: 176px;
-                h1{color:$white;
+                .h1{color:$white;
                 font-family: $primary-font;
                 font-weight: 900;
                 font-style: Black;
-                font-size: 96px;
-                line-height: 88px;
+                font-size: 130px;
+                line-height: 120px;
                 letter-spacing: 0px;
                 text-transform: uppercase;
+                margin-left: -191px;
+                margin-top: -60px;
                 }
             }
             .welcome_text_2{
@@ -46,23 +51,38 @@
                 top:120px;
                 left: 240px;
                 .container__subtitle{
-                    width: 350px;
-                    height: 160px;
                     p{
                         font-family: Outfit;
                         font-weight: 400;
+                        color: $black-ligth;
                         font-style: Light;
-                        font-size: 22px;
-                        line-height: 32px;
+                        font-size: 32px;
+                        line-height: 45px;
                         letter-spacing: 0px;
-
+                        margin-right: -200px;
+                        margin-left: 30px;
+                        margin-top: 40px;
                     }
                 }
             }
         }
     }
 }
-
+.button_index{
+  margin-top: 150px;
+  margin-left: 65px;
+  width: 350px;
+  height: 100px;
+  .text{
+    width: 350px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .arrow{
+    height: 100%;
+  }
+}
 // location.html
 
 .main_location{
@@ -90,7 +110,7 @@
             position: absolute;
             left:15px;
             top:-100px;
-            display: flex;  
+            display: flex;
             justify-content: center;
             align-items: center;
             .container__title{
@@ -105,7 +125,7 @@
                 letter-spacing: 0px;
                 text-transform: uppercase;
                 }
-       }
+      }
     }
 }
 }

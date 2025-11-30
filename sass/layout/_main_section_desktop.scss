@@ -1,57 +1,56 @@
 //Change to a desktop size
 
 .main_section{
-    @include breakpoint(desktop){
-        display:flex;
+    @include breakpoint(desktop xl){
         flex-direction: row-reverse;
-        margin-top: 180px;
-        width: 1110px;
+        margin-top: -580px;
         margin-left: auto;
         margin-right: auto;
         .imagen_2{
             background-image: url(../img/imagen_2_3.jpg);
-            width: 635px;
-            height: 400px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 900px;
+            height: 500px;
+
             margin-top: 0;
-            margin-left: 125px; 
+            margin-left: 125px;
         }
         .section_text{
             width: 350px;
             height: 280px;
             margin-top: 60px;
-            margin-bottom: 60px;
+            margin-bottom: 100px;
             .text_title{
-                width: 350px;
+                width: 400px;
                 height: 120px;
-                margin-bottom: 32px;
-                
-                
+                margin-top: -50px;
                 h2{
                     font-family: $primary-font;
                     font-weight: 900;
                     font-style: Black;
-                    font-size: 60px;
-                    line-height: 60px;
+                    font-size: 80px;
+                    line-height: 80px;
                     letter-spacing: 0px;
                     text-transform: uppercase;
+                    br{
+                      display: none;
+                    }
                 }
             }
             .text_parrafo{
-                width: 350px;
+                width: 500px;
                 height: 128px;
                 p{
                     font-family: Outfit;
                     font-weight: 400;
                     font-style: Light;
-                    font-size: 22px;
-                    line-height: 32px;
+                    font-size: 32px;
+                    line-height: 40px;
                     letter-spacing: 0px;
+                    margin-top: 70px;
                 }
-
             }
         }
-
-        
-
     }
 }
